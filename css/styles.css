@@ -1,0 +1,41 @@
+body {
+    margin:0;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+
+  h1 {
+    font-weight: normal;
+  }
+  
+  h2 {
+    font-weight: bold;
+  }
+
+.layout {
+  min-height: 100vh;
+display:flex;
+flex-direction:column;
+justify-content : flex-start;
+flex-grow:1;
+flex-shrink:0;
+background-color:#D8D8D8;
+font-weight: normal;
+}
+
+.top{
+  padding-left: 1em;
+  background-color: black;
+  color: white;
+}
+
+.middle {
+  margin:1em;
+  flex-grow:2;
+}
+
+.bottom{
+  order:1;
+  background-color:black;
+  color:white;
+  padding-left:1em;
+}
